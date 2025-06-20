@@ -1,0 +1,76 @@
+/* ©Thorsten Bylicki | https://bylickilabs.de | https://Github.com/bylickilabs */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+body.theme-dark {
+  background: linear-gradient(270deg, #00fff7, #0033ff, #00cc99, #00fff7);
+  background-size: 800% 800%;
+  animation: backgroundShift 25s ease infinite;
+  color: #ffffff;
+}
+
+body.theme-light {
+  background: #f0f0f0;
+  color: #000000;
+}
+
+@keyframes backgroundShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.neon {
+  font-size: 2.5rem;
+  color: #00fff7;
+  text-shadow:
+    0 0 5px #00fff7,
+    0 0 10px #00fff7,
+    0 0 20px #00fff7;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  margin: auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00fff7;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #00fff7;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00fff7;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00cc99;
+}
+
+/* ©Thorsten Bylicki | https://bylickilabs.de | https://Github.com/bylickilabs */
