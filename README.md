@@ -1,4 +1,4 @@
-# 🚀 NeonStarter
+> 🚀 NeonStarter
 
 |![Status](https://img.shields.io/badge/status-in--development-yellow?style=for-the-badge&logo=githubactions&logoColor=black) | ![Release](https://img.shields.io/badge/release-June%2020%2C%202025-0ff?style=for-the-badge&logo=github&logoColor=black) |
 |---|---|
